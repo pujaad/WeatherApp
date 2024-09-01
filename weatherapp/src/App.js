@@ -40,7 +40,7 @@ function App() {
 
     <>
     <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:"10px"}}>
-    <input type="search" value={city} onChange={handleChange}></input>
+    <input type="text" value={city} onChange={handleChange}></input>
     <button style={{backgroundColor:"green"}} onClick={fetchApi}>Search</button>
     </div>
     {loading && <p>Loading data...</p>}
